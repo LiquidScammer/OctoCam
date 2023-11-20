@@ -1,3 +1,4 @@
+[![Github All Releases](https://img.shields.io/github/downloads/OctoBurr/OctoCam/total.svg)]()
 # OctoCam
 The latest and not greatest cam mod.
 ![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/f943e2f6-e4e2-4630-8c11-aabd0732ab93)
