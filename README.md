@@ -1,5 +1,6 @@
 # OctoCam
 The latest and not greatest cam mod.
+![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/3ec32b9c-9702-470d-8204-b18af8566339)
 
 
 
@@ -14,15 +15,19 @@ The latest and not greatest cam mod.
 # What do the features do?
 ## First person
 Put the camera into first person.
-![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/00642566-2452-411f-96ce-b0af9c6cb5b8)
+![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/b8889080-d4fb-4245-a873-215263ef9454)
+
 
 ## Third Person
 Puts the camera into third person.
-![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/eeec51ab-ceaa-4f66-b539-faf84ab30cac)
+![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/92606bd1-6a2c-42b5-aae6-177cd70bffc2)
+
 
 ## Look At Player
 Makes the camera look at your players head.
-![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/498f9a6d-27bd-4251-b4f7-17add2dc38b9)
+![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/acfc0f3f-1e0a-4ee0-a799-a32cc18ca816)
+
+
 
 ## Lock To Player
 Where ever you put the camera and press the Lock to Player button it will stay along with your head.
