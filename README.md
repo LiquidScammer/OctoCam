@@ -1,6 +1,7 @@
 # OctoCam
 The latest and not greatest cam mod.
-![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/f943e2f6-e4e2-4630-8c11-aabd0732ab93)
+
+
 
 # Features
 * First Person,
@@ -33,4 +34,4 @@ Makes it so whenever you press your x button it doesnt move to you.
 ##Pc Screen UI
 Has all the same features above but its on your pc screen.
 
-![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/aeef77e1-0462-4633-b289-4d0c1f25328f)
+![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/553c9b27-a8ff-43d0-a0ef-3713bca4120f)
