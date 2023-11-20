@@ -11,7 +11,7 @@ The latest and not greatest cam mod.
 # What do the features do?
 ## First person
 Put the camera into first person
-![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/b9db18f3-3f1c-4d29-88cd-4ae200616a8a)
+![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/00642566-2452-411f-96ce-b0af9c6cb5b8)
 
 
 ## Third Person
