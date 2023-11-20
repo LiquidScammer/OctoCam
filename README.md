@@ -36,7 +36,7 @@ Where ever you put the camera and press the Lock to Player button it will stay a
 Makes it so whenever you press your x button it doesnt move to you.
 
 
-##Pc Screen UI
+## Pc Screen UI
 Has all the same features above but its on your pc screen.
 
 ![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/553c9b27-a8ff-43d0-a0ef-3713bca4120f)
