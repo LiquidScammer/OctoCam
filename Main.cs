@@ -19,7 +19,7 @@ namespace OctoCam
         public GameObject lockMovment;
         public GameObject lookAtPlayer;
         bool GUIEnabled = false;
-        bool DebugEnabled = false;
+        //bool DebugEnabled = false;
         public bool moveLock = false;
         bool isLooking;
         void Start() => Utilla.Events.GameInitialized += OnGameInitialized;
@@ -78,14 +78,14 @@ namespace OctoCam
             {
                 GUIEnabled = !GUIEnabled;
             }
-            if (Keyboard.current.ctrlKey.wasPressedThisFrame)
+            /*if (Keyboard.current.ctrlKey.wasPressedThisFrame)
             {
                 DebugEnabled = !DebugEnabled;
             }
             if (isLooking)
             {
                 CameraModel.transform.LookAt(Camera.main.transform);
-            }
+            }*/
         }
         public void FirstPerson()
         {
@@ -144,7 +144,7 @@ namespace OctoCam
                 }
                 moveLock = GUI.Toggle(new Rect(15, 180, 90, 35), moveLock, "Move Lock");
             }
-            if (DebugEnabled)
+            /*if (DebugEnabled)
             {
                 //test stuff used for debuging ps most of this stuff will break my cam mod so id suggest not to play with this
                 GUI.Box(new Rect(150, 10, 100, 120), "Debug Menu");
@@ -160,7 +160,7 @@ namespace OctoCam
                 {
                     onMove();
                 }
-            }
+            }*/
         }
         void onMove()
         {
