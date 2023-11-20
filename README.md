@@ -1,4 +1,5 @@
 <a href="https://github.com/OctoBurr/OctoCam/LICENSE"><img src="https://img.shields.io/badge/license-MIT-%23373737"</img></a>
+<img src="https://img.shields.io/github/downloads/OctoBurr/OctoCam/total?label=Downloads">
 # OctoCam
 The latest and not greatest cam mod.
 ![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/3ec32b9c-9702-470d-8204-b18af8566339)
