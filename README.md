@@ -1,4 +1,3 @@
-[![Downloads](https://static.pepy.tech/badge/download)](https://github.com/OctoBurr/OctoCam)
 # OctoCam
 The latest and not greatest cam mod.
 ![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/3ec32b9c-9702-470d-8204-b18af8566339)
