@@ -1,4 +1,5 @@
 <img src="https://img.shields.io/github/downloads/OctoBurr/OctoCam/total?label=Downloads">
+
 # OctoCam
 The latest and not greatest cam mod.
 
@@ -34,7 +35,7 @@ Makes the camera look at your players head.
 ## Lock To Player
 Where ever you put the camera and press the Lock to Player button it will stay along with your head.
 
-## Lock Movmement
+## Lock Movement
 Makes it so whenever you press your x button it doesnt move to you.
 
 
