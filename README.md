@@ -3,8 +3,6 @@
 # OctoCam
 The latest and not greatest cam mod.
 
-[WATCH THIS VIDEO TO SEE THE FEATURES OF MY CAM MOD](https://youtu.be/oUDuKxenhuc)
-
 ![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/3ec32b9c-9702-470d-8204-b18af8566339)
 
 
@@ -45,3 +43,5 @@ Makes it so whenever you press your x button it doesnt move to you.
 Has all the same features above but its on your pc screen.
 
 ![ _ ](https://github.com/OctoBurr/OctoCam/assets/132259285/553c9b27-a8ff-43d0-a0ef-3713bca4120f)
+
+[WATCH THIS VIDEO TO SEE THE FEATURES OF MY CAM MOD](https://youtu.be/oUDuKxenhuc)
