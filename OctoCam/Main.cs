@@ -21,6 +21,8 @@ namespace OctoCam
         bool GUIEnabled = false;
         //bool DebugEnabled = false;
         public static bool moveLock = false;
+        bool isFirstPerson = false;
+        bool isThirdPerson = false;
         bool isLooking;
         void Start() => Utilla.Events.GameInitialized += OnGameInitialized;
         void OnGameInitialized(object sender, EventArgs e)
@@ -93,6 +95,7 @@ namespace OctoCam
             CameraModel.transform.SetParent(Camera.main.transform);
             CameraModel.transform.localPosition = Vector3.zero;
             CameraModel.transform.localRotation = Quaternion.identity;
+            isFirstPerson = true;
         }
         void outOfInvis()
         {
@@ -108,6 +111,7 @@ namespace OctoCam
             CameraModel.transform.SetParent(Camera.main.transform);
             CameraModel.transform.localPosition = new Vector3(0.2f, 0.1618f, -1.2727f);
             CameraModel.transform.localRotation = Quaternion.identity;
+            isThirdPerson = true;
         }
         public void lockToMonke()
         {
@@ -171,8 +175,14 @@ namespace OctoCam
                 CameraModel.transform.parent = null;
                 outOfInvis();
             }
+            if (isFirstPerson || isThirdPerson)
+            {
+                CameraModel.transform.SetParent(Camera.main.transform, true);
+                CameraModel.transform.localPosition = new Vector3(0, 0, 1);
+                CameraModel.transform.parent = null;
+                outOfInvis();
+            }
         }
-
         public AssetBundle LoadAssetBundle(string  path)
         {
             Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(path);
