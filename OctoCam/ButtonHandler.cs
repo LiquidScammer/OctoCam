@@ -3,7 +3,7 @@ namespace OctoCam
 {
     public class ButtonHandler : MonoBehaviour
     {
-        //ty stricker elmishh(cyn) and kyle
+        //ty elmishh(cyn) and kyle
         public string button;
         private float touchTime = 0f;
         private const float debounceTime = 0.25f;
