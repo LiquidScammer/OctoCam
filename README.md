@@ -14,6 +14,10 @@ The latest and not greatest cam mod.
 * Lock To Player
 * Lock Movement
 * Pc Screen UI
+* Mornin
+* Day
+* Evenin
+* Nite
 
 # What do the features do?
 ## First person
