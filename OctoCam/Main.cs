@@ -124,7 +124,7 @@ namespace OctoCam
             CameraModel.transform.parent = null;
             isLooking = !isLooking;
         }
-                public static void SetNightTime()
+        public static void SetNightTime()
         {
             BetterDayNightManager.instance.SetTimeOfDay(0);
         }
@@ -182,7 +182,7 @@ namespace OctoCam
                     lockToMonke();
                 }
                 moveLock = GUI.Toggle(new Rect(15, 180, 90, 35), moveLock, "Move Lock");
-                                if (GUI.Button(new Rect(15, 300, 140, 40), "Set Morning Time"))
+                if (GUI.Button(new Rect(15, 300, 140, 40), "Set Morning Time"))
                 {
                     SetMorningTime();
                 }
