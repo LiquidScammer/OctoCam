@@ -124,6 +124,41 @@ namespace OctoCam
             CameraModel.transform.parent = null;
             isLooking = !isLooking;
         }
+                public static void SetNightTime()
+        {
+            BetterDayNightManager.instance.SetTimeOfDay(0);
+        }
+
+        public static void SetEveningTime()
+        {
+            BetterDayNightManager.instance.SetTimeOfDay(7);
+        }
+
+        public static void SetMorningTime()
+        {
+            BetterDayNightManager.instance.SetTimeOfDay(1);
+        }
+
+        public static void SetDayTime()
+        {
+            BetterDayNightManager.instance.SetTimeOfDay(3);
+        }
+
+        public static void SetRain()
+        {
+            for (int i = 1; i < BetterDayNightManager.instance.weatherCycle.Length; i++)
+            {
+                BetterDayNightManager.instance.weatherCycle[i] = BetterDayNightManager.WeatherType.Raining;
+            }
+        }
+
+        public static void SetNoRain()
+        {
+            for (int i = 1; i < BetterDayNightManager.instance.weatherCycle.Length; i++)
+            {
+                BetterDayNightManager.instance.weatherCycle[i] = BetterDayNightManager.WeatherType.None;
+            }
+        }
         private void OnGUI()
         {
             if (GUIEnabled)
@@ -147,6 +182,31 @@ namespace OctoCam
                     lockToMonke();
                 }
                 moveLock = GUI.Toggle(new Rect(15, 180, 90, 35), moveLock, "Move Lock");
+                                if (GUI.Button(new Rect(15, 300, 140, 40), "Set Morning Time"))
+                {
+                    SetMorningTime();
+                }
+                if (GUI.Button(new Rect(15, 360, 140, 40), "Set Day Time"))
+                {
+                    SetDayTime();
+                }
+                if (GUI.Button(new Rect(15, 420, 140, 40), "Set Evening Time"))
+                {
+                    SetEveningTime();
+
+                }
+                if (GUI.Button(new Rect(15, 480, 140, 40), "Set Night Time"))
+                {
+                    SetNightTime();
+                }
+                if (GUI.Button(new Rect(15, 540, 140, 40), "Set Rain"))
+                {
+                    SetRain();
+                }
+                if (GUI.Button(new Rect(15, 600, 140, 40), "Set No Rain"))
+                {
+                    SetNoRain();
+                }
             }
             /*if (DebugEnabled)
             {
